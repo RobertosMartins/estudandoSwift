@@ -33,7 +33,7 @@ var nome = 'Roberto'
 let numeroPI = 3,14
 ```
 Obs: 
-* Toda variável deve ser instânciada com um valor ou dever indicar seu tipo
+* Toda variável deve ser instânciada com um valor ou dever indicar seu tipo(**Annotation**)
 * Dê preferência pelo uso de constantes, pois o swift otimiza o uso delas.
 
 ```swift
