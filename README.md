@@ -72,7 +72,7 @@ print(hamburguersBigMac + itensBigMac)
 ```
 ### Métodos do Array
 
-- append - Adiciona um item na lista
+- append - Adiciona um item na lista. // Também pode ser usado lista += ["outros item"] ou lista.insert("Item", at: 0) posição
 - remove -   Remove o itens de acordo com o index (at:0)
 - isEmpty - Verifica se a lista esta vazia (Bool)
 ```swift
@@ -86,9 +86,22 @@ if bigMac.isEmpty {
 } else {
    print("Obrigado Volte Sempre!") 
    ```
-
-
-
+ - Recuperar um item pelo index  
+ ```swift
+ var primeiroItem = bigMac[0]  // Hamburguer
+ ```
+- Troca o valor de um item
+ ```swift
+ if(bigMac[6] == "Picles"){
+print("Troca o Picles por ketchup, por favor")
+}
+bigMac[6] = "Ketchup"
+print(bigMac) //["Hamburguer", "Hamburguer", "Alface", "Queijo", "Molho Especial", "Cebola", "Ketchup", "Pão com Gergelim"]
+  ```
+- Adicionar valor no final do Array 
+```swift
+bigMac[bigMac.count] = "Mostarda"
+```
 * Set  
 * Dictionary
 
