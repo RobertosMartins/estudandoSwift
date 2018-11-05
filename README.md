@@ -70,6 +70,24 @@ let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
 let itensBigMac = ["Alface", "Queijo","Molho Especial","Cebola", "Picles","Pão com Gergelim"] // Todos os itens setados na inicialização do array são do tipo String
 print(hamburguersBigMac + itensBigMac) 
 ```
+### Métodos do Array
+
+- append - Adiciona um item na lista
+- remove -   Remove o itens de acordo com o index (at:0)
+- isEmpty - Verifica se a lista esta vazia (Bool)
+```swift
+let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
+let itensBigMac = ["Alface", "Queijo","Molho Especial","Cebola", "Picles","Pão com Gergelim"]
+var bigMac = hamburguersBigMac + itensBigMac  //Foi retirado o let = constante e trocado por var
+
+bigMac = [];  // Esta linha zera os itens da lista, caso queria que seja retornado o else comente 
+if bigMac.isEmpty {
+   print("Cade meu BigMac???") 
+} else {
+   print("Obrigado Volte Sempre!") 
+   ```
+
+
 
 * Set  
 * Dictionary
