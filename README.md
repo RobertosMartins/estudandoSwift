@@ -73,7 +73,7 @@ print(hamburguersBigMac + itensBigMac)
 ### Métodos do Array
 
 - append - Adiciona um item na lista. // Também pode ser usado lista += ["outros item"] ou lista.insert("Item", at: 0) posição
-- remove -   Remove o itens de acordo com o index (at:0)
+- remove -   Remove o itens de acordo com o index (at:0) 
 - isEmpty - Verifica se a lista esta vazia (Bool)
 ```swift
 let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
@@ -102,6 +102,21 @@ print(bigMac) //["Hamburguer", "Hamburguer", "Alface", "Queijo", "Molho Especial
 ```swift
 bigMac[bigMac.count] = "Mostarda"
 ```
+- removeLast - Remove um item do final
+- enumerated() - Cria uma matriz de chave e valor para cada items.
+```swift
+for (index, value) in bigMac.enumerated() {
+    print("Item \(index + 1): \(value)")
+}
+```
+### Iterar sobre os itens do Array (Percorrer sobre cada item dentro do Array)
+```swift
+for item in bigMac {
+    print(item) // Alface Queijo Molho Especial Cebola Picles Pão com Gergelim
+}
+```
+
+
 * Set  
 * Dictionary
 
