@@ -2,6 +2,9 @@
 O objetivo deste repositório e compartilhar conhecimentos básicos de swift
 
 [Referência](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+
+[IDE On-line para executar os códigos ](http://online.swiftplayground.run/)
+
 # Básico 
 
 Swift é a linguagem de programação para dispositivos da apple.
