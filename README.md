@@ -39,12 +39,33 @@ Obs:
 ```swift
 var inteiro:int  //Esta variavel receberá um inteiro
 ```
-
-
-
-
 [Coleções](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
-* Array
+
+## Array
+
+Serve para armazenar uma coleção de variáveis, como se fosse um "caixa" com vários compartilhamentos para variáveis do MESMO tipo. Elas podem ser variáveis(mutáveis = podem ser alteradas) o imutáveis(lista de constantes).
+
+```swift
+var arrayNumeros = [Int]() //Instância um array que receberá o tipo Inteiro
+
+arrayNumeros.append(100)   // Adiciona valor
+arrayNumeros.append(200)
+arrayNumeros.remove(at: 0)  // Remove o primeiro 100
+print("arrayNumeros tem apenas \(arrayNumeros.count) item.")
+
+arrayNumeros = []           // Zera a lista, mas continua esperando números
+print(arrayNumeros.count)   // apresenta o número de elemetos 0 zero
+```
+### Unindo dois arrays
+
+```swift
+let agenteNumeroSecreto = Array(repeating: 0, count: 2)
+let numeroIdentificadorAgente = [7]
+
+print("James Bond")
+print(agenteNumeroSecreto + numeroIdentificadorAgente)
+```
+
 * Set  
 * Dictionary
 
