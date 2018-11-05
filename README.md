@@ -61,9 +61,14 @@ print(arrayNumeros.count)   // apresenta o número de elemetos 0 zero
 ```swift
 let agenteNumeroSecreto = Array(repeating: 0, count: 2)
 let numeroIdentificadorAgente = [7]
-
 print("James Bond")
 print(agenteNumeroSecreto + numeroIdentificadorAgente)
+```
+### Criando Arrays com Literal
+```swift
+let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
+let itensBigMac = ["Alface", "Queijo","Molho Especial","Cebola", "Picles","Pão com Gergelim"] // Todos os itens setados na inicialização do array são do tipo String
+print(hamburguersBigMac + itensBigMac) 
 ```
 
 * Set  
