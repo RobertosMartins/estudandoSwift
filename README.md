@@ -73,10 +73,16 @@ let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
 let itensBigMac = ["Alface", "Queijo","Molho Especial","Cebola", "Picles","Pão com Gergelim"] // Todos os itens setados na inicialização do array são do tipo String
 print(hamburguersBigMac + itensBigMac) 
 ```
-### Métodos do Array
+### Métodos
 
-- append - Adiciona um item na lista. // Também pode ser usado lista += ["outros item"] 
-- insert - Adiciona um item em uma determinada posição na lista. //lista.insert("Item", at: 0) posição
+- append - Adiciona um item na lista. Também pode ser usado 
+```swift 
+lista += ["outros item"]  
+```
+- insert - Adiciona um item em uma determinada posição na lista. 
+```swift
+lista.insert("Item", at: 0) //posição 
+```
 - remove -   Remove o itens de acordo com o index (at:0) 
 - isEmpty - Verifica se a lista esta vazia (Bool)
 ```swift
