@@ -40,6 +40,7 @@ lista.insert("Item", at: 0) //posição
 - remove -   Remove o itens de acordo com o index (at:0) 
 - removeAll() - Remove todos os itens
 - isEmpty - Verifica se a lista esta vazia (Bool)
+- count - Conta o numero de itens da lista.
 ```swift
 let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
 let itensBigMac = ["Alface", "Queijo","Molho Especial","Cebola", "Picles","Pão com Gergelim"]
@@ -116,6 +117,44 @@ for letra in letrasArray {
     print(letra) 
 }
 print("Quantidade de itens dentro dO ARRAY \(letrasArray.count) items.")
+```
+### Métodos
+
+- insert - Adiciona um item no set. 
+- count - Conta o numero de itens da lista.
+- isEmpty - Verifica se a lista esta vazia (Bool)
+- remove - Remove um item do set 
+- contains - Verifica se um item esta contido na lista
+```swift
+letrasSet.contains("a") //true ou false
+```
+- sort() - Ordena os valores contidos no set
+```swift
+letrasSet.sorted() //Sorteia fora da ordem
+letrasSet.sorted(by: >) //Ascendente
+letrasSet.sorted(by: <) // Descendete
+```
+### Operação entre Sets
+![Imagem das operações com Set](https://docs.swift.org/swift-book/_images/setVennDiagram_2x.png)
+
+### Exemplo
+```swift
+let numerosPares: Set = [0,2, 4, 6, 8, 10]
+let numerosImpares: Set = [1, 3, 5, 7, 9]
+let numeroPrimos: Set = [2, 3, 5, 7]
+
+print(numerosPares.union(numerosImpares).sorted())
+// [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10]
+// Unir os conjuntos
+print(numerosPares.intersection(numeroPrimos).sorted())
+// O que os dois conjuntos têm em comum?
+// [2]
+print(numerosPares.subtracting(numeroPrimos).sorted())
+// O que eu tenho no conjunto dos números pares e não tenho nos números primos
+// [0, 4, 6, 8, 10]
+print(numerosPares.symmetricDifference(numeroPrimos).sorted())
+//Quero todos os itens que não estão em comum entre o conjuntos dos números pares e os primos
+// [0, 3, 4, 5, 6, 7, 8, 10]
 ```
 
 
