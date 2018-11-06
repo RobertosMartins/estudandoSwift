@@ -128,6 +128,10 @@ for item in bigMac {
 ```
 
 * Set  
+Também é uma coleção de variáveis do mesmo tipo e que adiciona valores distintos, porém de forma NÃO ORDENADA.
+
+Serve para armazenar na ordem uma coleção de variáveis, como se fosse um "caixa" com vários compartilhamentos para variáveis do MESMO tipo. Elas podem ser variáveis(mutáveis = podem ser alteradas) o imutáveis(lista de constantes).
+
 
 
 * Dictionary
