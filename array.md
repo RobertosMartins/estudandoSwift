@@ -82,3 +82,5 @@ for item in bigMac {
 }
 ```
 
+ [⏭️ **Set**](https://github.com/RobertosMartins/estudandoSwift/blob/master/set.md)
+
