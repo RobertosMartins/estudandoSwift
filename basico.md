@@ -35,3 +35,5 @@ Obs:
 ```swift
 var inteiro:int  //Esta variavel receberá um inteiro
 ```
+
+ [⏭️ **Coleções**](https://github.com/RobertosMartins/estudandoSwift/blob/master/colecoes.md)
