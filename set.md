@@ -56,21 +56,20 @@ letrasSet.sorted(by: <) // Descendete
 
 ### Exemplo
 ```swift
-let numerosPares: Set = [0,2, 4, 6, 8, 10]
-let numerosImpares: Set = [1, 3, 5, 7, 9]
-let numeroPrimos: Set = [2, 3, 5, 7]
+let numerosPares: Set = ["0","2","4","6","8","10"]
+let numerosImpares: Set = ["1","3","5","7","9"]
+let numeroPrimos: Set = ["2","3","5","7"]
 
-print(numerosPares.union(numerosImpares).sorted())
+var numerosUnidos: Set<String> = numerosPares.union(numerosImpares)
 // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10]
-// Unir os conjuntos
-print(numerosPares.intersection(numeroPrimos).sorted())
-// O que os dois conjuntos têm em comum?
-// [2]
-print(numerosPares.subtracting(numeroPrimos).sorted())
-// O que eu tenho no conjunto dos números pares e não tenho nos números primos
-// [0, 4, 6, 8, 10]
-print(numerosPares.symmetricDifference(numeroPrimos).sorted())
-//Quero todos os itens que não estão em comum entre o conjuntos dos números pares e os primos
-// [0, 3, 4, 5, 6, 7, 8, 10]
+
+print(numerosPares.isSubset(of: numerosUnidos))
+// true - Os números pares estão CONTIDO no conjunto união
+
+print(numerosUnidos.isSuperset(of: numerosPares))
+// true - Os números Unidos CONTÉM os numeros pares
+
+print(numerosPares.isDisjoint(with: numeroPrimos))
+// false - Pois no conjunto dos números primos tem o elemento 2 que é o mesmo que no números Unidos
 ```
 
