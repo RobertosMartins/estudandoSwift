@@ -46,11 +46,11 @@ var inteiro:int  //Esta variavel receberá um inteiro
 
 ## Array
 
-Serve para armazenar uma coleção de variáveis, como se fosse um "caixa" com vários compartilhamentos para variáveis do MESMO tipo. Elas podem ser variáveis(mutáveis = podem ser alteradas) o imutáveis(lista de constantes).
+Serve para armazenar na ordem uma coleção de variáveis, como se fosse um "caixa" com vários compartilhamentos para variáveis do MESMO tipo. Elas podem ser variáveis(mutáveis = podem ser alteradas) o imutáveis(lista de constantes).
 
 ```swift
-var arrayNumeros = [Int]() //Instância um array que receberá o tipo Inteiro
-
+var arrayNumeros = [Int]() //Instância um array que receberá o tipo Inteiro, também podemos usar Array<String>()
+ 
 arrayNumeros.append(100)   // Adiciona valor
 arrayNumeros.append(200)
 arrayNumeros.remove(at: 0)  // Remove o primeiro 100
@@ -75,7 +75,8 @@ print(hamburguersBigMac + itensBigMac)
 ```
 ### Métodos do Array
 
-- append - Adiciona um item na lista. // Também pode ser usado lista += ["outros item"] ou lista.insert("Item", at: 0) posição
+- append - Adiciona um item na lista. // Também pode ser usado lista += ["outros item"] 
+- insert - Adiciona um item em uma determinada posição na lista. //lista.insert("Item", at: 0) posição
 - remove -   Remove o itens de acordo com o index (at:0) 
 - isEmpty - Verifica se a lista esta vazia (Bool)
 ```swift
@@ -119,8 +120,9 @@ for item in bigMac {
 }
 ```
 
-
 * Set  
+
+
 * Dictionary
 
 
