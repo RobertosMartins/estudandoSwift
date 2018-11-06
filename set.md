@@ -73,3 +73,4 @@ print(numerosPares.isDisjoint(with: numeroPrimos))
 // false - Pois no conjunto dos números primos tem o elemento 2 que é o mesmo que no números Unidos
 ```
 
+ [⏭️ **Dictionaries**](https://github.com/RobertosMartins/estudandoSwift/blob/master/dictionaries.md)
