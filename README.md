@@ -84,6 +84,7 @@ lista += ["outros item"]
 lista.insert("Item", at: 0) //posição 
 ```
 - remove -   Remove o itens de acordo com o index (at:0) 
+- removeAll() - Remove todos os itens
 - isEmpty - Verifica se a lista esta vazia (Bool)
 ```swift
 let hamburguersBigMac = Array(repeating:"Hamburguer",count:2)
