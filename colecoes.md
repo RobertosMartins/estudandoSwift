@@ -80,12 +80,40 @@ for item in bigMac {
     print(item) // Alface Queijo Molho Especial Cebola Picles Pão com Gergelim
 }
 ```
+## Set
 
-* Set  
-Também é uma coleção de variáveis do mesmo tipo e que adiciona valores distintos, porém de forma NÃO ORDENADA.
+Também é uma coleção de variáveis do mesmo tipo e que adiciona valores DISTINTOS, porém de forma NÃO ORDENADA.
 
-Serve para armazenar na ordem uma coleção de variáveis, como se fosse um "caixa" com vários compartilhamentos para variáveis do MESMO tipo. Elas podem ser variáveis(mutáveis = podem ser alteradas) o imutáveis(lista de constantes).
+#### Como eu garanto que um valor é Único no Set???
 
+De acordo com a documentação oficial o tipo do valor de um elemento no set deve ser hashable na ordem que é adicionado para que seja único.
 
+Hashable - Quer dizer que o tipo em um set tem um valor inteiro único que o determina 
 
-* Dictionary
+#### Pegadinha quantos itens eu vou mostrar no Set e quantos vou mostrar no Array
+
+```swift
+
+var letrasSet = Set<Character>()
+
+letrasSet.insert("a")
+letrasSet.insert("B")
+letrasSet.insert("a")
+
+for letra in letrasSet {
+    print(letra) 
+}
+
+print("Quantidade de itens dentro do SET \(letrasSet.count) items.")
+print("-------------------------------------------------------------------.")
+
+var letrasArray = Array<Character>()
+letrasArray.append("a")
+letrasArray.append("B")
+letrasArray.append("a")
+
+for letra in letrasArray {
+    print(letra) 
+}
+print("Quantidade de itens dentro dO ARRAY \(letrasArray.count) items.")
+```
