@@ -5,10 +5,6 @@ O objetivo deste repositório e compartilhar conhecimentos básicos de swift
 
 [IDE On-line para executar os códigos ](http://online.swiftplayground.run/)
 
-[Coleções](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+1- [Conceitos Básicos](https://github.com/RobertosMartins/estudandoSwift/blob/master/basico.md)
 
-
-
-
-
-
+2- [Coleções](https://github.com/RobertosMartins/estudandoSwift/blob/master/colecoes.md)
