@@ -9,5 +9,5 @@ O objetivo deste repositório e compartilhar conhecimentos básicos de swift 4.
 1- [Conceitos Básicos](https://github.com/RobertosMartins/estudandoSwift/blob/master/basico.md)
 
 2- Coleções
-[Array](https://github.com/RobertosMartins/estudandoSwift/blob/master/array.md)
-[Set](https://github.com/RobertosMartins/estudandoSwift/blob/master/set.md)
+  * [Array](https://github.com/RobertosMartins/estudandoSwift/blob/master/array.md)
+  * [Set](https://github.com/RobertosMartins/estudandoSwift/blob/master/set.md)
