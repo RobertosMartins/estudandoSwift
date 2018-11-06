@@ -1,4 +1,4 @@
-# Básico 
+# Conceitos Básicos
 
 Swift é a linguagem de programação para dispositivos da apple.
 * Type-safe - é um linguagem que assegura os tipos de valores que queremos trabalhar
