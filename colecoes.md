@@ -88,7 +88,7 @@ Também é uma coleção de variáveis do mesmo tipo e que adiciona valores DIST
 
 De acordo com a documentação oficial o tipo do valor de um elemento no set deve ser hashable na ordem que é adicionado para que seja único.
 
-Hashable - Quer dizer que o tipo em um set tem um valor inteiro único que o determina 
+Hashable - Quer dizer que o tipo de um elemento do set tem um valor inteiro único que o determina.(Identificador) 
 
 #### Pegadinha quantos itens eu vou mostrar no Set e quantos vou mostrar no Array
 
@@ -117,3 +117,5 @@ for letra in letrasArray {
 }
 print("Quantidade de itens dentro dO ARRAY \(letrasArray.count) items.")
 ```
+
+
